@@ -5,53 +5,18 @@ body {
   
 }
 
-.skill-div {
-   display: flex;
-  gap: 40px;
-  flex-wrap: wrap;
-  justify-content: center; 
-
-}
-
-.card h3{
-  font-size: 20px;
-  text-align: center;
-  margin-top: 100px;
-}
-#skills h2{
-   text-align: center;
-   margin-bottom: 30px;
-}
-
 
 .card{
-    position: relative;
-    transition: all 2s;
-    transform-style: preserve-3d;
-    width: 300px;
-    height: 300px;
-    float: left;
-    background-color: rgb(206, 206, 206);
-    box-shadow: 4px 4px 20px rgba(0,0,0,0.3);
-    
-
+  width: 600px;
+ margin: 0 auto !important;
+ 
+}
+.card-header a{
+  font-size: 20px;
+  color: rgb(6, 6, 67);
 }
 
-.front{
-    z-index: 1;
-    backface-visibility: hidden;
-    
-}
-.card:hover{
-    transform: rotateY(180deg);
-}
-.back{
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
-    text-align: center;
-    
-    
-}
+
 
 html {
   scroll-behavior: smooth;
@@ -73,7 +38,9 @@ section {
 .hero p{
     color: #ffffff;
 }
-
+#skills h2{
+  padding-bottom: 20px;
+}
 
 
 h1, h2 {
@@ -217,6 +184,7 @@ h2{
 #about p{
     line-height: 28px;
     color: rgb(0, 0, 0);
+    margin: 20px;
 }
 #about h2{
   text-align: center;
@@ -224,8 +192,12 @@ h2{
 .about-info{
   box-shadow: 4px 4px 20px rgba(0,0,0,0.3);
   padding: 10px;
-  margin-top: 30px;
+  
   background-color: white;
+  width: 600px;
+  border-radius: 10px;
+  margin: 30px auto;
+ 
 }
 .hero {
   /* position: relative; */
