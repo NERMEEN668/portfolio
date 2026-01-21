@@ -2,21 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Nermeen Ayman | UI/UX Designer</title>
+  <title>Nermeen Ayman | front-end Developer, UI/UX Designer</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <nav class="navbar">
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
 
+  <nav class="navbar navbar-expand-sm navbar-dark  ">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a href="#home">Home</a>
+          
+        </li>
+        <li class="nav-item">
+          <a href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
 
 
 
@@ -36,17 +57,24 @@
     <span></span>
     <span></span>
   </div>
+  <div class="information">
+    <div class="img1"><img src="image/download (5).jfif" alt=""></div>
+    <div class="text">
+      <h1>Nermeen Ayman</h1>
+      <p>UI/UX Designer</p>
+      <p>Frontend Developer</p>
+  </div>
+    
+  </div>
 
-
-    <h1>Nermeen Ayman</h1>
-    <p>UI/UX Designer</p>
-    <p>Frontend Developer</p>
+    
   </header>
   
 
   <section id="about" >
     <h2>About Me</h2>
-      <p>
+    <div class="about-info">
+        <p>
     I am a Control Engineering graduate with a strong interest in UI/UX design
     and front-end development. I enjoy transforming ideas and user needs into
     intuitive, functional, and visually clean digital interfaces.
@@ -58,17 +86,86 @@
     Figma and Adobe XD, while also implementing designs using HTML, CSS and Java Script
     to ensure feasibility and consistency between design and development.
   </p>
+    </div>
+    
   </section>
 
   <section id="skills">
+
     <h2>Skills</h2>
-    <ul>
-      <li>User Research</li>
-      <li>Wireframing</li>
-      <li>Prototyping</li>
-      <li>HTML & CSS</li>
-      <li>Java Script</li>
-    </ul>
+
+    <div class="skill-div">
+
+     <div class="card">
+
+        <div class="front" >
+      <h3>User Research</h3>
+    </div>
+      <div class="back">
+        <p>I collect and analyze user data to understand user needs and behaviors.
+I use interviews and surveys to extract insights that guide design decisions.</p>
+      </div>
+
+     </div>
+    
+
+      <div class="card">
+      <div class="front" >
+      <h3>Wireframing</h3>
+    </div>
+    
+      <div class="back">
+        <p>I create low-fidelity screen layouts to define content structure and user flow.
+I focus on clarity and usability before moving to visual design.</p>
+      </div>
+     </div>
+
+     <div class="card">
+      <div class="front" >
+      <h3>Prototyping</h3>
+    </div>
+    
+      <div class="back">
+        <p>I build interactive prototypes to simulate the user experience.
+I use them to test ideas and gather early user feedback.</p>
+      </div>
+     </div>
+
+
+     <div class="card">
+      <div class="front" >
+      <h3>HTML & CSS</h3>
+    </div>
+    
+      <div class="back">
+        <p>I develop responsive and accessible web interfaces.
+I focus on clean code, performance, and consistent styling.</p>
+      </div>
+     </div>
+
+     <div class="card">
+      <div class="front" >
+      <h3>Java Script</h3>
+    </div>
+    
+      <div class="back">
+        <p>I add interactivity and dynamic behavior to user interfaces.
+I enhance usability through events, validations, and DOM manipulation.</p>
+      </div>
+     </div>
+      
+
+      
+
+      
+
+      
+      
+    
+   
+     
+    </div>
+    
   </section>
 
   <section id="projects">
@@ -109,6 +206,10 @@
    <p>Email: <a  href="http:nermeenayman94@gmail.com" target="_blank">nermeenayman94@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/nermeen-ayman-33a3b91a2/" target="_blank">www.linkedin.com/in/nermeen-ayman-33a3b91a2</a></p>
   </footer>
+
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 </html>
