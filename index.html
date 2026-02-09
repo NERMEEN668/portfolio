@@ -7,6 +7,8 @@
   <title>Portfolio 1</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
@@ -18,13 +20,16 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ">
+      <ul class="navbar-nav w-100 justify-content-between ">
         <li class="nav-item">
           <a href="#home">Home</a>
           
         </li>
         <li class="nav-item">
           <a href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#education">Education</a>
         </li>
         <li class="nav-item">
           <a href="#skills">Skills</a>
@@ -62,8 +67,14 @@
   <div class="information">
     <div class="img1"><img src="image/download (5).jfif" alt=""></div>
     <div class="text">
-      <h1>Hi , I'm Nermeen Ayman</h1>
-      <p>UI/UX Designer & Frontend Developer</p>
+
+     
+  <h1>Hello, I'm <span class="name">Nermeen Ayman</span></h1>
+  <h2  class="gradient-text">
+    I'm a <span class="typing"></span>
+  </h2>
+
+      
       
   </div>
     
@@ -77,17 +88,25 @@
     <h2>About Me</h2>
     <div class="about-info">
         <p>
-    I am a Control Engineering graduate with a strong interest in UI/UX design
-    and front-end development. I enjoy transforming ideas and user needs into
-    intuitive, functional, and visually clean digital interfaces.
+    I am a Frontend Developer passionate about building modern, responsive, and user-friendly web interfaces. I specialize in transforming designs into interactive and functional websites using HTML, CSS, and JavaScript.
+
+I focus on writing clean, maintainable code and delivering seamless user experiences across different devices and browsers. I pay close attention to detail, performance, and best practices to ensure high-quality results.
+
+I am continuously learning and staying up to date with the latest web technologies to enhance my skills and deliver better digital solutions.
   </p>
 
-  <p>
-    My background in engineering helps me approach design problems analytically.
-    I work on user research, wireframing, and prototyping using tools such as
-    Figma and Adobe XD, while also implementing designs using HTML, CSS and Java Script
-    to ensure feasibility and consistency between design and development.
-  </p>
+    </div>
+    
+  </section>
+
+    <section id="education" >
+    <h2>Education</h2>
+    
+    <div class="education-info">
+        <h3>Bachelor of Industrial Electronics & Control Engineering &nbsp;&nbsp; 2012 - 2017</h3>
+      
+      <p>Specialized in Control Systems, Automation, and Embedded Electronics</p>
+
     </div>
     
   </section>
@@ -97,76 +116,137 @@
 
 <section id="skills">
  
-<div class="container mt-3 skill-div">
+<div class="container  skill-div">
   <h2>Skills</h2>
+   <div class="row g-4">
+      
+      <!-- Technical Skills -->
+      <div class="col-12 col-md-6">
+        <h4 >Technical Skills</h4>
   
   <div id="accordion">
    
     <div class="card">
       <div class="card-header">
-        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-          User Research
-        </a>
+        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">HTML5</a>
       </div>
       <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-        <div class="card-body">
-I collect and analyze user data to understand user needs and behaviors.
-I use interviews and surveys to extract insights that guide design decisions.        </div>
+        <div class="card-body">Semantic and well-structured markup. Focused on accessibility and SEO best practices.</div>
       </div>
     </div>
     <div class="card">
       <div class="card-header">
-        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-        Wireframing
-      </a>
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">CSS3</a>
       </div>
       <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-        <div class="card-body">
-I create low-fidelity screen layouts to define content structure and user flow.
-I focus on clarity and usability before moving to visual design.        </div>
+        <div class="card-body"> Responsive and modern layouts using Flexbox and Grid. Clean styling with attention to design consistency.</div>
       </div>
     </div>
     <div class="card">
       <div class="card-header">
-        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-          Prototyping
-        </a>
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">JavaScript (ES6+)</a>
       </div>
       <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-        <div class="card-body">
-I build interactive prototypes to simulate the user experience.
-I use them to test ideas and gather early user feedback.        </div>
+        <div class="card-body">Interactive and dynamic user interfaces. Reusable and well-organized code structure.</div>
       </div>
     </div>
 
      <div class="card">
       <div class="card-header">
-        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsefour">
-          HTML & CSS
-        </a>
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsefour">Responsive Web Design</a>
       </div>
       <div id="collapsefour" class="collapse" data-bs-parent="#accordion">
-        <div class="card-body">
-I develop responsive and accessible web interfaces.
-I focus on clean code, performance, and consistent styling.       </div>
+        <div class="card-body">Layouts optimized for all screen sizes. Mobile-first and performance-focused approach.</div>
       </div>
     </div>
 
      <div class="card">
       <div class="card-header">
-        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsefive">
-          Java Script
-        </a>
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsefive">Bootstrap</a>
       </div>
       <div id="collapsefive" class="collapse" data-bs-parent="#accordion">
-        <div class="card-body">
-I add interactivity and dynamic behavior to user interfaces.
-I enhance usability through events, validations, and DOM manipulation.       </div>
+        <div class="card-body">Efficient use of responsive UI components. Customized layouts with clean implementation.</div>
       </div>
     </div>
 
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsesix">UI/UX Principles</a>
+      </div>
+      <div id="collapsesix" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">Strong understanding of usability and visual hierarchy. Focused on creating intuitive and user-centered experiences.</div>
+      </div>
+    </div> </div> </div>
+    
+ 
+
+
+  <!-- Soft Skills -->
+      <div class="col-12 col-md-6">
+        <h4 >Soft Skills</h4>
+        <div class="accordion" id="softAccordion">
+
+          <div class="card">
+            <div class="card-header">
+              <a class="btn" data-bs-toggle="collapse" href="#softOne">Communication</a>
+            </div>
+            <div id="softOne" class="collapse show" data-bs-parent="#softAccordion">
+              <div class="card-body">Clear and effective communication. Ensures smooth collaboration and understanding.</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#softTwo">Problem Solving</a>
+            </div>
+            <div id="softTwo" class="collapse" data-bs-parent="#softAccordion">
+              <div class="card-body">Analytical and creative approach to challenges.Efficient solutions with logic and innovation.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#softThree">Time Management</a>
+            </div>
+            <div id="softThree" class="collapse" data-bs-parent="#softAccordion">
+              <div class="card-body">Prioritizes tasks to meet deadlines.Balances quality and timely delivery.</div>
+            </div>
+          </div>
+
+           <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#softfour">Teamwork</a>
+            </div>
+            <div id="softfour" class="collapse" data-bs-parent="#softAccordion">
+              <div class="card-body"> Collaborates effectively with others.Supports a positive and productive environment.</div>
+            </div>
+          </div>
+
+           <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#softfive">Adaptability</a>
+            </div>
+            <div id="softfive" class="collapse" data-bs-parent="#softAccordion">
+              <div class="card-body">Quick to adjust to new tools and challenges.Flexible in dynamic work situations.</div>
+            </div>
+          </div>
+
+           <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#softsix">Attention to Detail</a>
+            </div>
+            <div id="softsix" class="collapse" data-bs-parent="#softAccordion">
+              <div class="card-body">Focuses on accuracy and quality in every task.Ensures polished and error-free results.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
   </div>
-</div>
+
 </section>
 
 
@@ -203,12 +283,21 @@ I enhance usability through events, validations, and DOM manipulation.       </d
 
  
 
-  <footer id="contact">
-    <h2>Contact</h2>
-   <p>Email: <a  href="http:nermeenayman94@gmail.com" target="_blank">nermeenayman94@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/nermeen-ayman-33a3b91a2/" target="_blank">www.linkedin.com/in/nermeen-ayman-33a3b91a2</a></p>
-    <p>Github: <a  href="https://github.com/NERMEEN668" target="_blank">github.com/NERMEEN668</a></p>
-  </footer>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+<p style="text-transform: capitalize; font-size: 17px; text-align: center; padding: 20px 0px;">I'd love to hear from you! Whether you have a project, a question, feel free to reach out. I’ll get back to you as soon as possible.</p>
+
+    <div class="contact-icons">
+   <a  href="http:nermeenayman94@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/nermeen-ayman-33a3b91a2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a  href="https://github.com/NERMEEN668" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="tel:+201030753089" ><i class="fas fa-phone"></i></a>
+    <a href="https://wa.me/201030753089" target="_blank"><i class="fab fa-whatsapp"></i> </a>
+    </div>
+  
+  </div>
+    </section>
 
 
   <script src="js/bootstrap.min.js"></script>
