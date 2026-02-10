@@ -496,10 +496,17 @@ h2{
 }
 .contact-icons {
   display: flex;
-  justify-content: space-around; /* يوزعهم على كامل العرض */
+  justify-content: space-around; 
   align-items: center;
  
   
+}
+@media (max-width: 768px) {
+  .contact-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
 }
 
 
