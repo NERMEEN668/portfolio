@@ -496,8 +496,9 @@ h2{
 }
 .contact-icons {
   display: flex;
-  justify-content: space-around; 
+  justify-content: center; 
   align-items: center;
+  gap: 60px;
  
   
 }
@@ -511,10 +512,6 @@ h2{
 
 
 
-/* .contact-icons a:hover {
-  color: #1d4ed8;
-  transform: scale(1.2);
-} */
 
 
 
